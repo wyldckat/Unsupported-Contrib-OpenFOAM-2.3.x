@@ -37,7 +37,8 @@ boundaryField
 
     bottom
     {
-        type            interstitialInletVelocity;
+        type            uniformInterstitialInletVelocity;
+        uniformInletVelocity   constant (0 0 1.875);
         inletVelocity   uniform (0 0 1.875);
         value           uniform (0 0 1.875);
         phi             phi.air;

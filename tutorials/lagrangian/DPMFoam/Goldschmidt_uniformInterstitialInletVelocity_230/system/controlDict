@@ -45,4 +45,6 @@ timePrecision   6;
 
 runTimeModifiable yes;
 
+libs ( "libcontribFiniteVolume.so" );
+
 // ************************************************************************* //
