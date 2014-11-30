@@ -4,4 +4,4 @@ derivedFvPatchFields = $(fvPatchFields)/derived
 
 $(derivedFvPatchFields)/uniformInterstitialInletVelocity/uniformInterstitialInletVelocityFvPatchVectorField.C
 
-LIB = $(FOAM_USER_LIBBIN)/contribFiniteVolume
+LIB = $(FOAM_USER_LIBBIN)/libcontribFiniteVolume
